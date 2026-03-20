@@ -23,6 +23,7 @@ def test_exact_title_returns_item():
     assert results[0]["title"] == "Stranger Things"
 
 
+
 def test_partial_title_returns_matches():
     """Busca parcial (substring) deve retornar todos os itens correspondentes."""
     results = search_by_title(CATALOG, "game")
